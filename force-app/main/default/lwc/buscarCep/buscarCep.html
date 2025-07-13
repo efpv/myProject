@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Consulta de Endereço por CEP">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <lightning-input label="CEP" value={cep} onchange={handleCepChange} type="text"></lightning-input>
+            <lightning-button label="Buscar e salvar" onclick={buscarEndereco} variant="brand" class="slds-m-top_medium"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
