@@ -16,3 +16,11 @@ Este projeto implementa uma automação inteligente no Salesforce que permite co
 ---
 
 ## 📂 Estrutura
+MYPROJECT/
+└── force-app/
+    └── main/
+        └── default/
+            ├── classes/              # Classes Apex invocáveis e wrappers
+            ├── flexipages/           # Página personalizada da Account
+            ├── flows/                # Flow ConsultaCep
+            └── objects/              # Campos customizados da Account
