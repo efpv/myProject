@@ -137,6 +137,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>BillingNeighborhood__c</field>
+            <value>
+                <elementReference>ConsultarCeoViaCep.bairro</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>BillingNumber__c</field>
             <value>
                 <elementReference>numberInput</elementReference>
@@ -194,6 +200,12 @@
             <field>BillingCountry</field>
             <value>
                 <stringValue>Brasil</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>BillingNeighborhood__c</field>
+            <value>
+                <elementReference>Bairro</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
